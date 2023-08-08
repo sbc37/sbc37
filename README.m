@@ -1,4 +1,3 @@
-
 def suma_arreglos_recursiva(arr1, arr2, i=0):
     if i < len(arr1):
         return [arr1[i] + arr2[i]] + suma_arreglos_recursiva(arr1, arr2, i+1)
